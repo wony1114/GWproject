@@ -42,5 +42,4 @@ public class HomeController {
 	public String move(@PathVariable String dir,@PathVariable String page) {
 		return dir+":"+page;
 	}
-	
 }
