@@ -28,7 +28,7 @@
 					</ul>
 				</li>
 				<li class="menu">
-					<a href="#">메뉴4</a>
+					<a href="#" id = "cliHome">고객관리</a>
 				</li>
 			</ul>
 	</div>
@@ -37,4 +37,6 @@
 	$('.home').click(function(){location.href='/gwland'})
 	$('#listPlace').click(function(){location.href='/gwland/pce/listPlace'})
 	$('#bbs').click(function(){location.href=`${ctx}/bbs/index`})
+	$('#cliHome').click(function(){location.href='/gwland/cli/cliHome'})
 </script>
+
